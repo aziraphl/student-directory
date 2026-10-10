@@ -1,0 +1,19 @@
+<?php
+
+// Angel Delmo
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Student extends Model
+{
+    protected $fillable = [
+        'student_number',
+        'first_name',
+        'last_name',
+        'program',
+        'year_level',
+        'email',
+    ];
+}
